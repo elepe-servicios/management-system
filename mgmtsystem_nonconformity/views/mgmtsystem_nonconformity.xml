@@ -182,7 +182,7 @@
                                         class='oe_kanban_mail_new'
                                         title='Unread Messages'
                                     ><i class='fa fa-comments' /><t
-                                            t-raw="record.message_needaction_counter.raw_value"
+                                            t-esc="record.message_needaction_counter.raw_value"
                                         /></span>
                                 </div>
                                 <div class="oe_kanban_bottom_right">
